@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TodoList</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <div class="todo-container">
+        <h1>Desafio TodoList</h1>
+        <div class="task-input">
+            <input type="text" id="new-task" placeholder="Nueva tarea">
+            <button id="add-task">Agregar</button>
+        </div>
+        <p>Total: <span id="total-tasks">3</span></p>
+        <p>Completadas: <span id="completed-tasks">1</span></p>
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Tarea</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <tbody id="task-list">
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>
+                        <input type="checkbox">
+                        <button class="delete-btn">✖</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>
+                        <input type="checkbox">
+                        <button class="delete-btn">✖</button>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>
+                        <input type="checkbox">
+                        <button class="delete-btn">✖</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
